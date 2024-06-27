@@ -60,7 +60,7 @@ def create_chain(prompt_type):
         prompt = hub.pull("teddynote/chain-of-density-korean:946ed62d")
 
     # GPT
-    llm = ChatOpenAI(model_name="gpt-4o", temperature=0)
+    llm = ChatOpenAI(model_name="gpt-4", temperature=0)
 
     # 출력 파서
     output_parser = StrOutputParser()
